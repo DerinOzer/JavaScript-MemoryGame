@@ -1,0 +1,46 @@
+#wrapper {
+    width: 500px;
+}
+
+.main {
+    width: 100%;
+    border: 1px solid black;
+}
+
+#gameboard {
+    margin: 20px;
+    width: 610px;
+    align-items: center;
+}   
+
+.btn {
+    background: #3498db;
+    text-align: center;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+}
+
+.flipImage{
+    width: 150px;
+    height: auto;
+    align-items: center;
+}
+
+.gameTile{
+    padding: 1px;
+    width: 150px;
+    display: inline-block;
+    border:1px solid black;
+    align-items: center;
+}    
